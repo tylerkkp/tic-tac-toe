@@ -1,0 +1,85 @@
+body {
+  #backup background color if image doesnt load
+  background-color: gray;
+  background-image: url('https://images.pexels.com/photos/34085/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 100% 100%;
+  font-family: Fredoka One;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  font-family: Fredoka One;
+  padding: 6% 0% 0% 0%;
+}
+
+#btnbar {
+  position: fixed;
+  padding: 0% 0% 0% 3%;
+}
+
+button {
+  background-color: rgba(0,0,0,.25);
+  color: white;
+  height: 40px;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  font-family: Fredoka One;
+  font-size: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: .6s;
+}
+
+#new:hover{
+  background-color: rgba(50,150,50,.8);
+}
+
+#select {
+  display: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+#x {
+  display: none;
+}
+#o {
+  display: none;
+}
+
+#x:hover {
+  background-color: rgba(225,225,125,.8);
+}
+#o:hover {
+  background-color: rgba(225,225,125,.8);
+}
+
+#board {
+  text-align: center;
+  color: white;
+  font-family: Fredoka One;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 15px;
+  font-size: 8em;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: teal;
+  border-style: solid;
+  border-radius: 10px;
+  line-height: 120px;
+}
+
+.grid-item:hover {
+  border-color: yellow;
+}
+
