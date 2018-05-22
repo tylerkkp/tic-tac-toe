@@ -9,7 +9,7 @@ Users can play a game of Tic Tac Toe against a computer opponent.
 * Difficulty Selection (will need improved AI at higher difficulties)
 * Two Player games (first local, then web-based)
 
-![alt text][logo]
+![screen shot][logo]
 
 [logo]: https://github.com/tylerkkp/tic-tac-toe/blob/master/ttt.jpg "screen shot"
 
