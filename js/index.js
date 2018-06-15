@@ -90,15 +90,9 @@ function compmove() {
 };
 
 function reloadpage() {
-  document.getElementById('a1').innerHTML = '#';
-  document.getElementById('a2').innerHTML = '#';
-  document.getElementById('a3').innerHTML = '#';
-  document.getElementById('b1').innerHTML = '#';
-  document.getElementById('b2').innerHTML = '#';
-  document.getElementById('b3').innerHTML = '#';
-  document.getElementById('c1').innerHTML = '#';
-  document.getElementById('c2').innerHTML = '#';
-  document.getElementById('c3').innerHTML = '#';
+  for (var item = 0; item < allboxes.length; item++) {
+    document.getElementById(item).innerHTML = '#';
+}
 }
 
 var toggle = 0;
