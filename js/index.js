@@ -11,10 +11,12 @@ var c3 = '';
 var boxlist = {'a1': a1, 'a2': a2, 'a3': a3, 'b1': b1, 'b2': b2, 'b3': b3, 'c1': c1, 'c2': c2, 'c3': c3};
 var allboxes = ['a1', 'a2', 'a3', 'b1', 'b2', 'b3', 'c1', 'c2', 'c3'];
 
+// Create array of possible win conditions
 var wins = [['a1', 'a2', 'a3'], ['b1', 'b2', 'b3'], ['c1', 'c2', 'c3'], ['a1', 'b1', 'c1'], ['a2', 'b2', 'c2'], ['a3', 'b3', 'c3'], ['a1', 'b2', 'c3'], ['a3', 'b2', 'c1']];
 var winner = false;
 var player = '';
 
+// Test to see if game ends in a tie
 function tietest() {
   var tiecheck = [];
   for (var box = 0; box < allboxes.length; box++) {
@@ -69,7 +71,7 @@ function wintest() {
   }
 }
 
-// List of possible moves for 'stupid' computer
+// List of possible moves for 'stupid' computer -- NEED TO ADD 'Difficulty' SELECTOR WITH MULTIPLE LEVELS OF SKILL
 var poslist = ['a1', 'a2', 'a3', 'b1', 'b2', 'b3', 'c1', 'c2', 'c3'];
 var num = 0;
 
@@ -84,7 +86,7 @@ function compmove() {
       toggle -= 1;
     }
   } else {
-    compmove();
+    compmove(); // TRY AGAIN IF BOX IS ALREADY TAKEN
   }
   wintest();
 };
