@@ -13,7 +13,7 @@ Users can play a game of Tic Tac Toe against a computer opponent.
 
 [logo]: https://github.com/tylerkkp/tic-tac-toe/blob/master/ttt.jpg "screen shot"
 
-Site can be viewed at [Github Pages](http://www.tkparker.design/tic-tac-toe/)
+Site can be viewed at [Github Pages](https://www.tkkp.dev/tic-tac-toe/)
 
 Built using [Codepen.io](https://codepen.io/tylerkkp/pen/odoaKz)
 
