@@ -1,7 +1,5 @@
 ## Tic Tac Toe
 
-#### A Project for Free Code Camp
-
 Users can play a game of Tic Tac Toe against a computer opponent. 
 
 #### Future Features
