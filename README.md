@@ -1,6 +1,7 @@
 ## Tic Tac Toe
 
-[![Updated Badge](https://badges.pufler.dev/updated/tylerkkp/tic-cat-toe)](https://badges.pufler.dev)
+![Updated Badge][badge]
+[badge]: https://img.shields.io/github/last-commit/tylerkkp/tic-tac-toe "badge from shields.io"
 
 Users can play a game of Tic Tac Toe against a computer opponent. 
 
