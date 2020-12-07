@@ -1,7 +1,6 @@
 ## Tic Tac Toe
 
-![Updated Badge][badge]
-[badge]: https://img.shields.io/github/last-commit/tylerkkp/tic-tac-toe "badge from shields.io"
+![Updated Badge](https://img.shields.io/github/last-commit/tylerkkp/tic-tac-toe)
 
 Users can play a game of Tic Tac Toe against a computer opponent. 
 
