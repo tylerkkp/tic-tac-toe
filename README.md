@@ -1,5 +1,7 @@
 ## Tic Tac Toe
 
+[![Updated Badge](https://badges.pufler.dev/updated/tylerkkp/tic-cat-toe)](https://badges.pufler.dev)
+
 Users can play a game of Tic Tac Toe against a computer opponent. 
 
 #### Future Features
